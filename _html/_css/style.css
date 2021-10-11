@@ -1,11 +1,28 @@
+html {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
 body {
     background-color: #fc4c02;
+    font-family: 'Bebas Neue', cursive;
+    color: #fff;
 }
 .titulo {
     font-family: 'Bebas Neue', cursive;
-    text-align: left;
+    text-align: center;
     text-shadow: 3px 3px 3px black;
     color: #fff;
     margin-bottom: 0px;
-
+    padding: 1px;
+}
+h1 {
+    text-align: center;
+}
+footer {
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
 }
