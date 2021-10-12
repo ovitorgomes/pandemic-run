@@ -5,12 +5,21 @@ a {
     text-decoration: none;
     color: #fff;
 }
+main {
+    font-size: 20px;
+}
 body {
     background-color: #fc4c02;
     font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
     color: #fff;
+    text-indent: justify;
+}
+img {
+    display: grid;
 }
 .titulo {
+    font-size: 40px;
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     text-shadow: 3px 3px 3px black;
@@ -19,10 +28,25 @@ body {
     padding: 1px;
 }
 h1 {
+    font-size: 20px;
     text-align: center;
+}
+#ficha h1 {
+    text-align: left;
+
+}
+aside {
+    text-align: left;
 }
 footer {
     text-align: center;
-    justify-content: center;
-    flex-wrap: nowrap;
+
+}
+hr {
+    color: #fff;
+    width: 100%;
+}
+nav {
+
+    display: inline;
 }
