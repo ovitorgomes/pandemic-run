@@ -1,9 +1,18 @@
+html{
+    background-color: #fc5200;
+}
+
 body {
-    background-color: #fc4c02;
+    background-color: #fc5200
     font-family: 'Bebas Neue', cursive;
     font-size: 30px;
+    text-shadow: 5px 3px 5px black;
+    text-align: justify;
     color: #fff;
     text-indent: justify;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px black;
+    padding: 10px;
 }
 
 #menu ul {
@@ -47,7 +56,7 @@ h1 {
 }
 
 hr {
-    color: #fff;
+    color: #fc4c02;
     width: 100%;
 }
 nav {
